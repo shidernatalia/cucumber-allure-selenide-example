@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: tests.CucumberRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.258 s <<< FAILURE! - in tests.CucumberRunnerTest
+User can add a book into his collection  Time elapsed: 8.491 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Book added to your collection.> but was: <Book already present in the your collection!>
+
+User case remove all books from his collection  Time elapsed: 6.64 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Book added to your collection.> but was: <Book already present in the your collection!>
+
